@@ -1,0 +1,16 @@
+This program was created by Alexander Maji as the culminating project for Grade 11 SciTech Computer Science, ICS3UR
+
+If the program has no audio, make sure that the Processing Sound library is installed. You may need to update your audio drivers.
+If the game crashes when starting, make sure that there is a savefile.txt in the data folder.
+
+Tested on Windows 10 (school computer) and Windows 11 (laptop and gaming PC) only.
+
+Entity/monster rendering is unstable (image will flicker and/or lag) at large map sizes (>2048x2048)
+High render distance and screen resolution may cause lag!
+
+For a more authentic experience, run the game in a 4:3 aspect ratio (640x480, 960x720, 1440x1080). The game still supports custom resolutions and fullscreen display.
+
+Let me know of any bugs!
+
+This is the final release version. All other versions are in ZIP files and lack the README file.
+Some early versions of the game lack certain features and may contain unused/removed assets in the data folder.

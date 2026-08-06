@@ -14,4 +14,5 @@ High render distance and screen resolution may cause lag!
 
 For a more authentic experience, run the game in a 4:3 aspect ratio (640x480, 960x720, 1440x1080). The game still supports custom resolutions and fullscreen display.
 
-NOTICE: This version is missing a file (outdoors.wav) that was present in the original version due to Github's file size limits. The dependency was removed from the code.
+NOTICE: This version is missing a file (outdoors.wav) that was present in the original version due to Github's file size limits. The dependency was removed from the program.
+You may use the code from this repository as a game engine for other Processing-based games, even if they are commercial, provided that you give credit and modify the code.

@@ -185,7 +185,6 @@ void setup(){
   else title = new SoundFile(this,"horror2.mp3");
   teleport = new SoundFile(this,"teleport.mp3");
   click = new SoundFile(this,"shutter.wav");
-  birds = new SoundFile(this,"outdoors.wav");
   select = new SoundFile(this,"select.wav");
   hurt = new SoundFile(this,"hurt.wav");
   roar = new SoundFile(this,"roar.wav");
@@ -802,7 +801,6 @@ void draw(){
     hum.stop(); //stop unnecessary audio
     alarm.stop(); 
     hum2.stop();
-    birds.stop();
     noise.play(); //TV static sound
   }else if(game_over==2) { //ending cutscene
     noise.stop();
@@ -818,14 +816,12 @@ void draw(){
     hum.stop(); //stop unnecessary audio
     hum2.stop();
     alarm.stop();
-    birds.stop();
     endText();
   }else if(game_over==4) { //credits
     noise.stop(); //stop unnecessary audio
     hum.stop();
     hum2.stop();
     alarm.stop();
-    birds.stop();
     credits();
   }else if(game_over!=0) { //title screen
     switch(game_over) { //select page of title screen
@@ -850,9 +846,7 @@ void draw(){
       noise.stop(); //stop unnecessary audio
       hum.stop();
       hum2.stop();
-      birds.stop();
     }else if(level>4){ //"outside world" levels (only exist to avoid save file issues)
-      if(!birds.isPlaying()) birds.loop();
       noise.stop(); //stop unnecessary audio
       hum.stop();
       hum2.stop();
@@ -860,7 +854,6 @@ void draw(){
     }else{
       noise.stop(); //stop unnecessary audio
       alarm.stop(); 
-      birds.stop();
        hum.freq(60); //play AC hum ambience
        hum2.freq(120);
       hum.play(); 

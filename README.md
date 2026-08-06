@@ -1,5 +1,6 @@
 # backrooms
 3D Backrooms game using a custom raycasting engine in Processing. 
+NOT AFFILIATED WITH KANE PARSONS OR A24 STUIDIOS.
 
 This program was created by Alexander Maji as the culminating project for Grade 11 SciTech Computer Science, ICS3UR
 

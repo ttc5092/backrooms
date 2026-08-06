@@ -1,4 +1,4 @@
-# backrooms
+# 3D Backrooms Game (using custom Processing raycaster engine)
 3D Backrooms game using a custom raycasting engine in Processing. 
 NOT AFFILIATED WITH KANE PARSONS OR A24 STUIDIOS.
 
